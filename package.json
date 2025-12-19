@@ -12,7 +12,12 @@
     "install:all": "npm install && cd server && npm install && cd ../client && npm install",
     "start": "cd server && npm start"
   },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "cheerio": "^1.0.0"
+  },
   "devDependencies": {
+    "@vercel/node": "^3.2.0",
     "concurrently": "^9.0.1"
   }
 }
